@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9707" started-at="2022-11-27T13:43:40Z" finished-at="2022-11-27T13:43:49Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Authenticate.when_invalid_password_valid_Username_throwerror()[pri:0, instance:com.test.Authenticate@13805618]" name="when_invalid_password_valid_Username_throwerror" class="com.test.Authenticate"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="9707" started-at="2022-11-27T13:43:40Z" finished-at="2022-11-27T13:43:49Z">
+      <class name="com.test.Authenticate">
+        <test-method status="PASS" signature="when_invalid_password_valid_Username_throwerror()[pri:0, instance:com.test.Authenticate@13805618]" name="when_invalid_password_valid_Username_throwerror" duration-ms="9678" started-at="2022-11-27T13:43:40Z" finished-at="2022-11-27T13:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_invalid_password_valid_Username_throwerror -->
+      </class> <!-- com.test.Authenticate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
