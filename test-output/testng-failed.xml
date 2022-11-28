@@ -5,7 +5,7 @@
     <classes>
       <class name="com.test.Authenticate">
         <methods>
-          <include name="when_invalid_password_invalid_Username_throwerror"/>
+          <include name="user_enters__forgotpassword_invalid_phone"/>
         </methods>
       </class> <!-- com.test.Authenticate -->
     </classes>

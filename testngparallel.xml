@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-
-	<groups>
-		<run>
-			
-			<include name="create"></include>
-			<exclude name="forgot"></exclude>
-			<exclude name="login"></exclude>
-		</run>
-	</groups>
-	
+<suite thread-count="6" name="Suite" parallel="methods">
 	<test name="Test">
+		
 		<classes>
 			<class name="com.test.Authenticate" />
 		</classes>
-		
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

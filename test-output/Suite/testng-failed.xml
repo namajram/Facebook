@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.test.FailedAll"/>
-  </listeners>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="create"/>
+        <exclude name="forgot"/>
+        <exclude name="login"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.test.Date">
+      <class name="com.test.Authenticate">
         <methods>
-          <include name="tc2"/>
+          <include name="user__createnewaccount"/>
         </methods>
-      </class> <!-- com.test.Date -->
+      </class> <!-- com.test.Authenticate -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -4,12 +4,11 @@
 
 <listeners>
 <listener class-name="com.test.FailedAll"></listener>
-
 </listeners>
 
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
-      <class name="com.test.FF"/>
+      <class name="com.test.Authenticate"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
